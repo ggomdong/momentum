@@ -27,7 +27,7 @@ function paintTodo(newTodoObj) {
 
   const button = document.createElement('button');
   button.style.color = 'red';
-  button.innerText = 'X';
+  button.innerText = '삭제';
   button.addEventListener('click', deleteTodo);
 
   li.appendChild(span);

@@ -1,3 +1,79 @@
+body {
+  height: 100vh;
+  background: no-repeat center;
+  background-size: cover;
+}
+
 .hidden {
   display: none;
+}
+
+#weather {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.clock h5 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.clock h2 {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+  /* position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 50%;
+  top: 50%;  
+  margin-left: -150px;
+  margin-top: -150px; */
+}
+
+#quote {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#login-form {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.greeting {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+#todo-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.todo {
+  display: flex;
+  /* height: 100vh; */
+  width: 100vw;
+  justify-content: center;
+}
+
+#todo {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 50vw;
+  /* height: 30vh; */
+  display: flex;
+  border-radius: 10px;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
